@@ -1,0 +1,83 @@
+@import "cssreset.css";
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+$background_color:#e7eeea;
+$font_color:#37523d;
+.content1,.content2,.content3{
+    background-color: $background_color;
+    margin-top: 10px;
+    color: $font_color;
+    h2{
+        font-size: 16px;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+    p{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+}
+.content1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 35px;
+    div{
+        display: flex;
+        flex-direction: row;
+        div{
+            flex-direction: column;
+            padding: 20px 10px;
+        }
+
+    }
+    img{
+        height: 54px;
+        width: 54px;
+    }
+}
+.content2{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 35px;
+    img{
+        padding: 10px;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        text-align: center;
+    }
+}
+.content3{
+    display: flex;
+    flex-direction: column;
+    div{
+        display: flex;
+        img{
+            padding: 10px;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+}
+.reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    img{
+        padding: 10px;
+    }
+    div{
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+}

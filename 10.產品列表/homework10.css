@@ -1,0 +1,76 @@
+@import "cssreset.css";
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.frame {
+  width: 950px;
+  margin: auto;
+  display: flex;
+  color: #37523d;
+}
+.frame a {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #37523d;
+}
+
+.product_list {
+  margin: 10px;
+}
+.product_list tr {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+.product_list th {
+  padding: 20px;
+  background-color: #37523d;
+  color: #ffffff;
+}
+.product_list td a {
+  display: block;
+  padding: 20px;
+}
+.product_list td a:hover {
+  background-color: #e7eeea;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product div {
+  margin: 10px 5px;
+  text-align: center;
+}
+.product div img {
+  display: block;
+  margin: 0px;
+}
+.product span {
+  display: flex;
+  font-size: 18px;
+}
+.product span h2, .product span p {
+  padding: 25px;
+  border: 1px solid #e7eeea;
+}
+.product span h2 {
+  width: 60%;
+}
+.product span p {
+  width: 40%;
+  font-weight: bold;
+}
+.product a {
+  display: block;
+  padding: 30px;
+  text-align: center;
+  color: #37523d;
+  background-color: #e7eeea;
+}/*# sourceMappingURL=homework10.css.map */

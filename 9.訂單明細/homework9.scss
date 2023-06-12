@@ -1,0 +1,55 @@
+@import "cssreset.css";
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+.frame{
+    width: 300px;
+    margin: auto;
+    h2{
+        background-color: #e7eeea;    
+        text-align: center;
+        font-weight: bold;
+        font-size: 22px;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+    color: #829886;
+}
+.order_summary,.order_list{
+    border: 1px solid #e7eeea;
+    margin-bottom: 20px;
+    li{
+        display: flex;
+        align-items: center;
+    }
+}
+.order_summary{
+    li{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h3{
+            padding: 10px;
+        }
+        span{
+            display: flex;
+            padding: 10px;
+        }
+    }
+    .total{
+        padding-top: 5px;
+        font-size: 20px;
+        font-weight: bold;
+    }   
+}
+.order_list{
+    img{
+        padding: 10px 20px;
+    }
+    h4{
+        padding: 10px 0px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+}

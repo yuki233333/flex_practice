@@ -1,0 +1,54 @@
+@import "cssreset.css";
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.frame_1 {
+  margin: 0 auto;
+  width: 910px;
+  background-color: #37523d;
+  padding: 10px;
+}
+
+.header {
+  background-color: #e7eeea;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px 15px 0px 0px;
+}
+.header img {
+  margin: 10px;
+}
+.header a {
+  padding: 30px;
+  text-decoration: none;
+  color: #37523d;
+}
+
+.content {
+  padding: 30px 50px;
+  border-radius: 0px 0px 15px 15px;
+  background-color: #ffffff;
+  display: flex;
+}
+.content div {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.content div span h2 {
+  margin: 30px 0px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.content div span p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.content div span a {
+  font-size: 20px;
+  color: #37523d;
+  margin: 2px;
+}/*# sourceMappingURL=homework6.css.map */

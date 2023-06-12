@@ -1,0 +1,54 @@
+@import "cssreset.css";
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+.header{
+    background-color: #e7eeea;
+    height: 90px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        a{
+            display: block;
+            padding: 5px;
+            text-decoration: none;
+            color: #37523d;
+            font-weight: bold;
+            font-size: 16px;
+        }
+    }
+}
+.content{
+    height: 736px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    div{
+        width: 600px;
+        h2{
+            font-weight: bold;
+            font-size: 20px;
+        }
+        h2,p,img{
+            padding: 10px;
+        }
+    }
+}
+.footer{
+    height: 55px;
+    background-color: #37523d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+        padding: 8px;
+        text-decoration: none;
+        color: #ffffff;
+    }
+}

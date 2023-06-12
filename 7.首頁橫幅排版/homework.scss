@@ -1,0 +1,41 @@
+@import "cssreset.css";
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+.frame{
+    width: 1145px;
+    height: 885px;
+    margin: 0 auto;
+}
+.content{
+    height: 800px;
+    background-color: #e7eeea;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img{
+        max-width: 20%;
+        max-height: 20%;
+    }
+    p{
+        color: #37523d;
+        font-size: 28px;
+        font-weight: bold;
+        padding: 30px;
+    }
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    ul{
+        display: flex;
+        a{
+            padding: 10px;
+            text-decoration: none;
+            color: #2e2e2e;
+        }
+    }
+}

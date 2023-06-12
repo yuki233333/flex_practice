@@ -1,0 +1,54 @@
+@import "cssreset.css";
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.frame {
+  width: 300px;
+  margin: auto;
+  color: #829886;
+}
+.frame h2 {
+  background-color: #e7eeea;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.order_summary, .order_list {
+  border: 1px solid #e7eeea;
+  margin-bottom: 20px;
+}
+.order_summary li, .order_list li {
+  display: flex;
+  align-items: center;
+}
+
+.order_summary li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.order_summary li h3 {
+  padding: 10px;
+}
+.order_summary li span {
+  display: flex;
+  padding: 10px;
+}
+.order_summary .total {
+  padding-top: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.order_list img {
+  padding: 10px 20px;
+}
+.order_list h4 {
+  padding: 10px 0px;
+  font-size: 20px;
+  font-weight: bold;
+}/*# sourceMappingURL=homework9.css.map */

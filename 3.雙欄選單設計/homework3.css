@@ -1,0 +1,103 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.main
+{
+    width: 1100px;
+    height: 828px;
+    margin: auto;
+    display: flex;
+}
+.content_left
+{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    width: 30%;
+    height: auto;
+    background-color: #e7eeea;
+}
+.content_left img
+{
+    display: block;
+    padding: 15px;
+}
+.content_left ul li a
+{
+    display: block;
+    padding: 15px;
+    color: #37523d;
+    font-size: 20px;
+    text-decoration: none;/*去掉連結底線*/
+
+}
+.content_right
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 80px;
+}
+.content_right h1
+{
+    padding-bottom: 35px;
+    font-size: 30px;
+    color: #37523d;
+}
+.content_right p
+{
+    padding-bottom: 35px;
+    font-size: 20px;
+}
+.content_right img
+{
+    float:left;
+    max-width:100%;
+}

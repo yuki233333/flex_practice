@@ -1,0 +1,21 @@
+@import "cssreset.css";
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+.frame{
+    width: 856px;
+    margin: 0 auto;
+    background-color: #b3d4d1;
+    display: flex;
+    align-items: center;
+    p{
+        padding: 50px;
+        font-size: 14px;
+        line-height: 1.5;
+        color: #ffffff;
+    }
+    img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
